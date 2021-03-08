@@ -1,0 +1,22 @@
+.m-movie-tile {
+  width: 250px;
+
+  padding: 10px;
+
+  border: 2px solid #dddddd;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &__title {
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  &__description {
+    font-family: "Open Sans";
+    font-size: 14px;
+  }
+}
