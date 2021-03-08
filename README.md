@@ -10,11 +10,20 @@ Install Angular CLI.
 
 Generate `movie-ratings` app.
 
+`ng new movie-ratings --directory ./`
+
 Generate `movies` module.
+
+`ng generate module movies --module=app.module`
 
 Generate `movies-overview` and `movies-add` pages.
 
+`ng generate component movies/pages/movies-overview --module=movies.module`
+`ng generate component movies/pages/movies-add --module=movies.module`
+
 Generate `movie-tile` component.
+
+`ng generate component movies/components/movie-tile --module=movies.module`
 
 ## Development server
 
