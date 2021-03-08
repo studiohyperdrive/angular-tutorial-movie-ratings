@@ -1,6 +1,20 @@
 # MovieRatings
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+## Summary
+
+### Set-up
+
+Install Angular CLI.
+
+`npm i -g angular-cli`
+
+Generate `movie-ratings` app.
+
+Generate `movies` module.
+
+Generate `movies-overview` and `movies-add` pages.
+
+Generate `movie-tile` component.
 
 ## Development server
 
